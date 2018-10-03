@@ -46,7 +46,7 @@ app.put('/:tipo/:id', (req, res, next) => {
     // Solo se aceptan estas extensiones
     var extensionesValidas = ['png', 'jpg', 'gif', 'tif'];
 
-    if (extensionesValidas.indexOf(extensionArchivo) < 0) {
+    if (extensionesValidas.indexOf(extensionArchivo.toLowerCase()) < 0) {
 
         return res.status(400).json({
             ok: false,

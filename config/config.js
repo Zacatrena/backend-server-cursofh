@@ -1,4 +1,4 @@
 module.exports.SEED = '@este-es@-un-seed-dificil';
 
-// Google
-module.exports.CLIENT_ID = '520161251421-v197aaifh387vctadvp06mrt24sspnf8.apps.googleusercontent.com';
+// Google *genoma251*
+module.exports.CLIENT_ID = '676652748338-fb9nj3nsbr0pe1s09u2uf1q2llkgf813.apps.googleusercontent.com';
